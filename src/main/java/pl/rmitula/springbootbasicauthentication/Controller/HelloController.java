@@ -17,7 +17,7 @@ public class HelloController {
     @GetMapping("/private")
     public String HelloPrivate() {
 
-        return "Hello Private!";
+        return "Hello PrivateV2!";
     }
 
     @PreAuthorize("hasRole('ROLE_ADMIN')")
